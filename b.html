@@ -1,0 +1,158 @@
+
+<!DOCTYPE >
+<html>
+<head>
+	<title>BOOK APPOINMENT</title>
+
+</head>
+<body>  
+<center>
+	<form method="GET" action="http://localhost/travelsystem/welcome.php">
+		<fieldset>
+			<table>
+				<h1>
+				Hotel Booking</h1>
+					<tr>
+						<th>
+							Name
+						</th>
+						<td>:</td>
+						<td>
+							<input type="text" pattern="[A-Za-z]{1,10}" name="fname" id="name1" placeholder="Enter First Name">
+							<input type="text" pattern="[A-Za-z]{1,10}" name="lname" id="name2" placeholder="Enter Last Name">
+						</td>
+
+					</tr>
+					<tr>
+						<th>
+							E-mail
+						</th>
+						<td>:</td>
+						<td>
+							<input type="email" name="email" id="email1"placeholder="name@mail.com" required></td> 
+							
+					</tr>
+					<tr>
+						<th>
+							Room Type
+						</th>
+						<td>:</td>
+						<td>
+
+
+							 
+      <select name="room" id="room" required>
+        <option value="Single">Single</option>
+        <option value="Double"> Double </option>
+        <option value="3people"> 3 people</option>
+        <option value="4people">4 people</option>
+        <option value="6people">6 people</option>
+        <option value="Male">Male </option>
+        <option value="Female"> Female</option>
+       
+      </select>
+						</td>
+							
+					</tr>
+					<tr>
+						<th>
+						Departure Date
+
+                      </th>
+                      <td>:</td>
+                      <td>
+                      	  <input type="date"value="date" value="yyyy-mm-dd" >
+                      </td>
+
+					</tr>
+					<tr>
+						<th>
+				Phone Number
+						</th>
+						<td>:</td>
+						<td>
+							<input type="number" name="Number" id="Number1" placeholder="Enter Number"></td>
+							
+					</tr>
+					
+					<tr>
+						<th>
+							Free Pickup
+						</th>
+						<td>:</td>
+						<td>
+                       <input type="radio" name="affirmative" value="Yes" >  Yes</input>
+
+                     <input type="radio" name="negative" value="No">  No</input>
+                     <tr>
+						<th>
+							Special Request
+						</th>
+						<td>:</td>
+						<td>
+							<textarea name="name" id="name3" placeholder="Type here" cols="40" rows="5">
+							</textarea>
+							
+						</td>
+
+					</tr>
+					<br><br>
+					 <tr>
+						<td>
+
+						</td>
+						<td></td>
+						
+						
+							
+							 <tr>
+						
+						
+						<td>
+							 <button onClick="window.location.href='http://localhost/travelsystem/home.html';">Submit</button>
+
+							
+						</td>
+
+							
+						
+						<tr>
+							<td></td>
+							<td></td>
+							<td>
+
+								
+								<a href="http://localhost/travelsystem/payment%20form.html">Payment</a>
+								
+						 </td>
+						</tr>
+						
+
+					</tr>
+					<tr>
+							<td></td>
+							<td></td>
+							<td>
+
+								
+								
+								<a href="http://localhost/travelsystem/welcome.php  ">home page</a>
+						 </td>
+						</tr>
+						
+
+					</tr>
+
+			<br>
+							</td>
+							
+					</tr>
+				</h1>
+			</table>
+		</fieldset>
+	</form>
+</center>
+ 
+
+ </body>
+</html>
